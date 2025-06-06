@@ -100,7 +100,6 @@ query2 = """
            quantity AS total_quantity
     FROM retail_data
     WHERE quantity > 0
-    GROUP BY stockcode, description
     ORDER BY total_quantity DESC
 """
 products_by_quantity = pd.read_sql_query(query2, conn)
