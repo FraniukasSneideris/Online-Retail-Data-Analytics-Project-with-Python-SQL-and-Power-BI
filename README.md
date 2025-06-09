@@ -145,7 +145,7 @@ returns_summary.to_csv("returns_summary.csv", index=False)
 **Overview of SQL queries and exports:**
 
 - `sales_summary`: Clean sales transactions and revenue calculations  
-- `products_by_quantity`: Best-selling products by volume  
+- `products_by_quantity`: Products overview (excluding returns) 
 - `customer_activity`: Lifetime value and engagement by customer  
 - `returns_summary`: Product return patterns and total return values  
 
