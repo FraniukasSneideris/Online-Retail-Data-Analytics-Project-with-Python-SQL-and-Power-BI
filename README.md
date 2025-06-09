@@ -153,15 +153,16 @@ All queries are executed using `sqlite3` and exported to CSV for use in Power BI
 
 ---
 
-## 📊 Dashboard (Power BI)
+## Dashboard (Power BI)
+![image](https://github.com/user-attachments/assets/5749d659-67ae-41dd-8743-373d288be5f1)
 
-🎥 **Dashboard Walkthrough**: [Link to Video – To Be Added]
+**Dashboard Walkthrough**: [Link to Video – To Be Added]
 
 The Power BI dashboard brings together insights generated in the previous steps and provides an interactive view into sales trends, customer behavior, and returns.
 
 ---
 
-## 📏 DAX Measures
+## DAX Measures
 
 Key measures used in the dashboard include :
 ```dax
@@ -186,18 +187,53 @@ Returns Percentage = DIVIDE([Total Returns Value], [Total Revenue])
 Products Count = COUNT(products_by_quantity[total_quantity])
 
 Revenue per Product = DIVIDE([Total Revenue], [Products Count])
+
+Number of Costumers = DISTINCTCOUNT(customer_activity[customer_id])
 ```
 
 ---
 
-## 📈 Visual Explanations
+## Visual Explanations
 
 Each visual on the dashboard is backed by specific insights and business logic, including:
 
-- Sales trend over time  
-- Customer segmentation  
-- Product performance  
-- Return rates and patterns  
+### Key Performance Indicators
+The upper pannel of the Dashboard displays the main KPIs, listed below:
+- Total Revenue
+- Total Quantity Sold
+- Revenue per Costumer 
+- Returns Percentage
+- Total Returns Count
+- Total Returns Value
+The four KPIs in the middle have toltips, as follows:
+- Total Quantity Sold over time
+- Revenue per Costumer over time
+- Total Returns Count over time
+- Total Returns Percentage and Total Invoices Percentage over time
+
+### Total Revenue over time
+Line chart displaying Total Revenue measure by Week
+
+### Customer insights 
+Table chart displaying Customer, Country, Active Months, Average Spent, Total Quantity per Invoice and Total Revenue.
+
+### Number of Customers and Total Revenue by Active Months
+Line and stacked column chart showing how customer loyalty, measured by the number of active months, relates to transaction volume (invoices) and total revenue, helping to identify how more loyal customers contribute to overall sales.
+
+### Returns Section
+Comprised of:
+- Total Returns Value over time: line chart displaying Total Returns Value by week
+- Returns in USD by Country: treemap displaying the total returns in USD by Country
+- Revenue vs Returns in USD by Product: line and stacked column chart displaying Total Revenue (columns), Return Count (line) by Product (X axis).
+
+### AOV and Average Price over time
+Line chart showing Average Order Price and Average price by week, helping identify trends, peaks, or seasonal shifts in customer spending behavior.
+
+### Slicers
+Affecting all visuals, filters the data by:
+- Country
+- Product
+- Customer
 
 *Detailed breakdowns included in the video and Power BI section.*
 
@@ -212,14 +248,3 @@ This end-to-end analytics project showcases:
 - How dashboards can bring raw numbers to life with interactivity  
 
 ---
-
-## 🧑‍💻 Author
-
-Made with ❤️ and Python  
-by [Your Name]
-
----
-
-## 📜 License
-
-Distributed under the MIT License.
