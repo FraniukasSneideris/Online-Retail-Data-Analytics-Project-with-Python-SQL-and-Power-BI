@@ -163,14 +163,11 @@ The Power BI dashboard brings together insights generated in the previous steps 
 
 ## 📏 DAX Measures
 
-Key measures used in the dashboard include (but are not limited to):
-
-- Total Revenue  
-- Total Returns  
-- Net Revenue  
-- Average Order Value  
-- Monthly Active Customers  
-- Top Products (by revenue and quantity)
+Key measures used in the dashboard include :
+- Total Revenue:
+```dax
+Total Revenue = SUM(sales_summary[total_revenue])
+```
 
 ---
 
