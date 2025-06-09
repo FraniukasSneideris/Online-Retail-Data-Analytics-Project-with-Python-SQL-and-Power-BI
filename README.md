@@ -100,7 +100,6 @@ query2 = """
            quantity AS total_quantity
     FROM retail_data
     WHERE quantity > 0
-    ORDER BY total_quantity DESC
 """
 products_by_quantity = pd.read_sql_query(query2, conn)
 
@@ -113,7 +112,6 @@ query3 = """
            COUNT(DISTINCT year || '-' || month) AS active_months
     FROM retail_data
     GROUP BY customer_id
-    ORDER BY total_spent DESC
 """
 customer_activity = pd.read_sql_query(query3, conn)
 
