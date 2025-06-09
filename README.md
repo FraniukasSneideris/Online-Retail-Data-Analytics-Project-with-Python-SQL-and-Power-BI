@@ -164,48 +164,27 @@ The Power BI dashboard brings together insights generated in the previous steps 
 ## 📏 DAX Measures
 
 Key measures used in the dashboard include :
-- Total Revenue:
 ```dax
 Total Revenue = SUM(sales_summary[total_revenue])
-```
-- Total Quantity Sold:
-```dax
+
 Total Quantity Sold = SUM(sales_summary[total_quantity])
-```
-- Total Invoices:
-```dax
+
 Total Invoices = DISTINCTCOUNT('sales_summary'[invoice])
-```
-- Total Costumers:
-```dax
+
 Total Costumers = DISTINCTCOUNT(sales_summary[customer_id])
-```
-- Revenue per Costumer:
-```dax
+
 Revenue per Costumer = [Total Revenue]/[Total Costumers]
-```
-- Average Order Value:
-```dax
-AOV = [Total Revenue] / [Total Invoices]
-```
-- Total Returns Value
-```dax
+
+Average Order Value = [Total Revenue] / [Total Invoices]
+
 Total Returns Value = SUM(returns_summary[total_returns_value])
-```
-- Total Returns Count:
-```dax
+
 Total Returns Count = COUNT(returns_summary[total_returns_quantity])
-```
-- Returns Percentage:
-```dax
+
 Returns Percentage = DIVIDE([Total Returns Value], [Total Revenue])
-```
-- Products Count:
-```dax
+
 Products Count = COUNT(products_by_quantity[total_quantity])
-```
-- Revenue per Product:
-```dax
+
 Revenue per Product = DIVIDE([Total Revenue], [Products Count])
 ```
 
