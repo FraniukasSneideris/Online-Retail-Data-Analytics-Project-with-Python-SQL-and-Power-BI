@@ -66,7 +66,7 @@ conn.close()
 
 ---
 
-## Part 2: SQL Analysis
+## Part 2: SQL Analysis in Python Script Environment
 ``` python
 # SQL ANALYSIS + PREP FOR POWER BI
 
