@@ -193,7 +193,7 @@ Number of Costumers = DISTINCTCOUNT(customer_activity[customer_id])
 
 ---
 
-## Visual Explanations
+## Explanation for Each Visual in the Dashboard
 
 Each visual on the dashboard is backed by specific insights and business logic, including:
 
