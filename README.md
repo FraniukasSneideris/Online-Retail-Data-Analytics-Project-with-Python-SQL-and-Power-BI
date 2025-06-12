@@ -191,6 +191,22 @@ Revenue per Product = DIVIDE([Total Revenue], [Products Count])
 Number of Costumers = DISTINCTCOUNT(customer_activity[customer_id])
 ```
 
+## DAX Calculated Columns
+I created one calculated column (Costumer Type) specifically for the costumer_activity table, to classify costumers according to the amount of months they were active. Costumers are classified as "Active", "Normal" or "Inactive". This column becomes specially useful when using it as a slicer.
+The formula is:
+```dax
+Customer Type = 
+IF(
+    [active_months] <= 2, 
+    "Inactive", 
+    IF(
+        [active_months] <= 5, 
+        "Normal", 
+        "Active"
+    )
+)  
+```
+
 ---
 
 ## Explanation for Each Visual in the Dashboard
@@ -215,7 +231,7 @@ The four KPIs in the middle have toltips, as follows:
 Line chart displaying Total Revenue measure by Week
 
 ### Customer insights 
-Table chart displaying Customer, Country, Active Months, Average Spent, Total Quantity per Invoice and Total Revenue.
+Table chart displaying Customer, Country, Active Months, Customer Type, Average Spent and Total Revenue.
 
 ### Number of Customers and Total Revenue by Active Months
 Line and stacked column chart showing how customer loyalty, measured by the number of active months, relates to transaction volume (invoices) and total revenue, helping to identify how more loyal customers contribute to overall sales.
@@ -231,9 +247,9 @@ Line chart showing Average Order Price and Average price by week, helping identi
 
 ### Slicers
 Affecting all visuals, filters the data by:
+- Costumer Type
 - Country
 - Product
-- Customer
 
 *Detailed breakdowns included in the video and Power BI section.*
 
