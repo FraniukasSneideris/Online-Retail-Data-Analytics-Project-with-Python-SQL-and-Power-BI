@@ -234,14 +234,14 @@ Line chart displaying Total Revenue measure by Week
 ### Customer insights 
 Table chart displaying Customer, Country, Active Months, Customer Type, Average Spent and Total Revenue.
 
-### Number of Customers and Total Revenue by Active Months
-Line and stacked column chart showing how customer loyalty, measured by the number of active months, relates to transaction volume (invoices) and total revenue, helping to identify how more loyal customers contribute to overall sales.
-
 ### Returns Section
 Comprised of:
 - Total Returns Value over time: line chart displaying Total Returns Value by week
 - Returns in USD by Country: treemap displaying the total returns in USD by Country
 - Revenue vs Returns in USD by Product: line and stacked column chart displaying Total Revenue (columns), Return Count (line) by Product (X axis).
+
+### Number of Customers and Total Revenue by Active Months
+Line and stacked column chart showing how customer loyalty, measured by the number of active months, relates to transaction volume (invoices) and total revenue, helping to identify how more loyal customers contribute to overall sales.
 
 ### AOV and Average Price over time
 Line chart showing Average Order Price and Average price by week, helping identify trends, peaks, or seasonal shifts in customer spending behavior.
