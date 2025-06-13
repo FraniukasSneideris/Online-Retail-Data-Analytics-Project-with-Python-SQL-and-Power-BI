@@ -8,7 +8,7 @@ The goal was to generate insights on customer behavior, sales performance, and p
 ### Why these tools?
 
 - **Python**: for data extraction, cleaning, and transformation.
-- **SQL**: for querying, aggregating, and preparing structured datasets.
+- **SQL**: for querying, and preparing structured datasets.
 - **Power BI**: for building a dynamic interactive dashboard to share insights.
 
 While all data cleaning and transformation could have been done directly in Power BI, I chose to use Python and SQL to integrate different tools and techniques. This approach showcases a more complete and flexible data workflow.
