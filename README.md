@@ -154,7 +154,7 @@ All queries are executed using `sqlite3` and exported to CSV for use in Power BI
 ---
 
 ## Dashboard (Power BI)
-![image](https://github.com/user-attachments/assets/49630911-026a-48e7-b021-a8de36c5fd9d)
+![image](https://github.com/user-attachments/assets/cf843b23-be6d-462f-985f-04f4b4ae4ab2)
 
 **Dashboard Walkthrough**: [Link to Video – To Be Added]
 
@@ -232,7 +232,7 @@ The four KPIs in the middle have toltips, as follows:
 Line chart displaying Total Revenue measure by Week
 
 ### Customer insights 
-Table chart displaying Customer, Country, Active Months, Customer Type, Average Spent and Total Revenue.
+Table chart displaying Customer, Country, Active Months, Customer Type, Average Spent and Revenue per Invoice. In this table, each row represent a single invoice.
 
 ### Returns Section
 Comprised of:
