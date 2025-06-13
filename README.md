@@ -154,7 +154,7 @@ All queries are executed using `sqlite3` and exported to CSV for use in Power BI
 ---
 
 ## Dashboard (Power BI)
-![image](https://github.com/user-attachments/assets/cf843b23-be6d-462f-985f-04f4b4ae4ab2)
+![image](https://github.com/user-attachments/assets/afb16a0f-76db-4645-8cc8-50ce20cdbd87)
 
 **Dashboard Walkthrough**: [Link to Video – To Be Added]
 
