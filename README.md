@@ -225,8 +225,8 @@ The upper pannel of the Dashboard displays the main KPIs, listed below:
 The four KPIs in the middle have toltips, as follows:
 - Total Quantity Sold over time (line chart)
 - Revenue per Costumer over time (line chart)
-- Total Returns Count over time (line chart)
 - Total Returns Value and Total Revenue by Week (stacked area chart)
+- Total Returns Count over time (line chart)
 
 ### Total Revenue over time
 Line chart displaying Total Revenue measure by Week
