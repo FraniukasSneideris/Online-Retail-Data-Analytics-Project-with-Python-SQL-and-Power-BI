@@ -1,0 +1,27 @@
+Total Revenue = SUM(sales_summary[total_revenue])
+
+Total Quantity Sold = SUM(sales_summary[total_quantity])
+
+Total Invoices = DISTINCTCOUNT('sales_summary'[invoice])
+
+Total Costumers = DISTINCTCOUNT(sales_summary[customer_id])
+
+Revenue per Costumer = [Total Revenue]/[Total Costumers]
+
+Average Order Value = [Total Revenue] / [Total Invoices]
+
+Total Returns Value = SUM(returns_summary[total_returns_value])
+
+Total Returns Count = COUNT(returns_summary[total_returns_quantity])
+
+Returns Percentage = DIVIDE([Total Returns Value], [Total Revenue])
+
+Products Count = COUNT(products_by_quantity[total_quantity])
+
+Revenue per Product = DIVIDE([Total Revenue], [Products Count])
+
+Number of Costumers = DISTINCTCOUNT(customer_activity[customer_id])
+
+Customer Type = IF([active_months] <= 2, "Inactive", 
+                IF([active_months] <= 5, "Normal", 
+                "Active"))  
