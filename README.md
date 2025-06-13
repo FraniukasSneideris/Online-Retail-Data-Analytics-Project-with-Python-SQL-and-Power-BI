@@ -192,7 +192,7 @@ Number of Costumers = DISTINCTCOUNT(customer_activity[customer_id])
 ```
 
 ## DAX Calculated Columns
-I created one calculated column (Costumer Type) specifically for the costumer_activity table, to classify costumers according to the amount of months they were active. Costumers are classified as "Active", "Normal" or "Inactive". This column becomes specially useful when using it as a slicer.
+I created one calculated column (Costumer Type) specifically for the costumer_activity table, to classify costumers according to the amount of months they were active. Costumers are classified as **"Active"**, **"Normal"** or **"Inactive"**. This column becomes specially useful when using it as a slicer.
 The formula is:
 ```dax
 Customer Type = 
