@@ -219,9 +219,6 @@ IF(
     )
 )  
 ```
-
----
-
 ## Explanation for Each Visual in the Dashboard
 
 Each visual on the dashboard is backed by specific insights and business logic, including:
@@ -274,7 +271,7 @@ Affecting all visuals, filters the data by:
 
 This end-to-end analytics project showcases:
 
-- The value of combining multiple tools in a modern data workflow (Python/SQL for preprocessing, Power BI for visualization)
+- The value of combining multiple tools in a modern data workflow: Python/SQL for preprocessing, Power BI for visualization
 - The importance of data cleaning and proper structure to ensure reliable insights
 - How dashboards can turn raw numbers into interactive, accessible stories
 - The impact of offering both light and dark themes to enhance usability across teams and settings
@@ -289,7 +286,8 @@ More than just a technical exercise, this project represents a real shift in how
 
 #### Returns & Risk
 - Inactive customers accounted for the highest return rates, but overall returns remained under 10%, indicating relatively healthy customer satisfaction.
-- The UK showed both the highest revenue and the highest return value ($537K), likely due to its larger customer base.
+- The Netherlands showed the highest revenue of all the countries.
+- The UK showed the second highest revenue and the highest return value ($537K), likely due to its larger customer base.
 
 #### Product & Pricing Trends
 - "Manual" was the top-selling product, with over $2M in revenue.
