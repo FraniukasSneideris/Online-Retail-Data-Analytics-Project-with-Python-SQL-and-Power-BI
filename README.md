@@ -154,7 +154,10 @@ All queries are executed using `sqlite3` and exported to CSV for use in Power BI
 ---
 
 ## Dashboard (Power BI)
-![image](https://github.com/user-attachments/assets/afb16a0f-76db-4645-8cc8-50ce20cdbd87)
+### General look
+I actually created two versions of the dashboard: one light, another one dark. I like both very much, but I think both could be used in different moments of the day, and for different audiences, therefore, I present here both versions.
+![image](https://github.com/user-attachments/assets/1aa1bd4c-3b4b-46c3-be34-935c012d8964)
+
 
 **Dashboard Walkthrough**: [Link to Video – To Be Added]
 
