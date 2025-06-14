@@ -268,13 +268,31 @@ Affecting all visuals, filters the data by:
 *Detailed breakdowns included in the video and Power BI section.*
 
 ---
+## Conclusions
 
-## ✅ Conclusion
+### Final Project Reflections
 
 This end-to-end analytics project showcases:
 
-- The value of combining multiple tools in a modern data workflow  
-- The importance of data cleaning and structure in analysis  
-- How dashboards can bring raw numbers to life with interactivity  
+- The value of combining multiple tools in a modern data workflow (Python/SQL for preprocessing, Power BI for visualization)
+- The importance of data cleaning and proper structure to ensure reliable insights
+- How dashboards can turn raw numbers into interactive, accessible stories
+- The impact of offering both light and dark themes to enhance usability across teams and settings
 
----
+More than just a technical exercise, this project represents a real shift in how data can be communicated, making it accessible and insightful for a broader audience.
+
+### Key Business Insights
+
+#### Customer Engagement & Revenue
+- Although most customers fell into the "Inactive" and "Normal" categories, *Active* customers alone generated nearly half of the total annual revenue ($4.38M out of $8.89M).
+- There is a strong correlation between customer activity and revenue: the more active the customer, the higher their contribution to revenue.
+
+#### Returns & Risk
+- Inactive customers accounted for the highest return rates, but overall returns remained under 10%, indicating relatively healthy customer satisfaction.
+- The UK showed both the highest revenue and the highest return value ($537K), likely due to its larger customer base.
+
+#### Product & Pricing Trends
+- "Manual" was the top-selling product, with over $2M in revenue.
+- The average price of products stayed relatively stable throughout the year, but the **Average Order Value (AOV)** showed seasonal peaks, likely driven by multi-item purchases.
+- Countries like Australia displayed large fluctuations in average price, suggesting pricing variation across customer segments.
+
