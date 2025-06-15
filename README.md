@@ -160,7 +160,9 @@ All queries are executed using `sqlite3` and exported to CSV for use in Power BI
 To provide flexibility and enhance user experience, I’ve designed **two versions of the dashboard** using Power BI: one in a **light theme**, and one in a **dark theme**.
 
 I genuinely like both — and I believe each has its own strengths, depending on the **audience**, the **context**, or even the **time of day** they’re being used.
-<img width="926" alt="image" src="https://github.com/user-attachments/assets/0bd652dd-6668-435a-9383-b931883b517b" />
+
+<img width="926" alt="project thumbnail" src="https://github.com/user-attachments/assets/dfa55ef6-b6db-47cc-8204-9b4b3669e6d4" />
+
 - **Light Version**  
   Ideal for executive presentations, printed reports, and daytime reviews.  
   It offers a clean, minimal aesthetic that works well for clarity and formal communication.
