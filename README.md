@@ -15,7 +15,7 @@ While all data cleaning and transformation could have been done directly in Powe
 
 The **dataset** used in this project is the [Online Retail dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail) from the UCI Machine Learning Repository.
 
-*Please note*: the raw files were not included in the repository, because they were very heavy to load in GitHub.
+*Please note*: the raw files were not included in the repository, because they were too heavy to load into GitHub.
 
 ---
 
