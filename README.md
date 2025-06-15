@@ -161,7 +161,7 @@ To provide flexibility and enhance user experience, I’ve designed **two versio
 
 I genuinely like both — and I believe each has its own strengths, depending on the **audience**, the **context**, or even the **time of day** they’re being used.
 
-<img width="926" alt="project thumbnail" src="https://github.com/user-attachments/assets/dfa55ef6-b6db-47cc-8204-9b4b3669e6d4" />
+![thumbnail](https://github.com/user-attachments/assets/a1323118-9dc9-417c-b547-4440cf10e602)
 
 - **Light Version**  
   Ideal for executive presentations, printed reports, and daytime reviews.  
@@ -246,7 +246,7 @@ The four KPIs in the middle have toltips, as follows:
 Line chart displaying Total Revenue measure by Week
 
 ### Customer insights 
-Table chart displaying Customer, Country, Active Months, Customer Type, Average Spent and Revenue per Invoice. In this table, each row represent a single invoice.
+Table chart displaying Customer, Country, Active Months, Customer Type, Average Spent and Total Revenue.
 
 ### Returns Section
 Comprised of:
