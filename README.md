@@ -264,7 +264,7 @@ Affecting all visuals, filters the data by:
 - Country
 - Product
 
-*Detailed breakdowns included in the video and Power BI section.*
+*Detailed breakdowns included in the video.*
 
 ---
 ## Conclusions
