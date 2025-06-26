@@ -16,7 +16,8 @@ query1 = """
            week,
            price,
            quantity AS total_quantity,
-           quantity * price AS total_revenue
+           quantity * price AS total_revenue,
+           invoicedate
     FROM retail_data
     WHERE quantity > 0
 """
@@ -59,7 +60,8 @@ query4 = """
            description,
            price,
            quantity AS total_returns_quantity,
-           quantity * price AS total_returns_value
+           quantity * price AS total_returns_value,
+           invoicedate
     FROM retail_data
     WHERE quantity < 0
 """
