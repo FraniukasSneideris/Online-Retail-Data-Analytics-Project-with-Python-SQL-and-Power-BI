@@ -17,7 +17,7 @@ The **dataset** used in this project is the [Online Retail dataset](https://arch
 This dataset is comprised of **one excel file containing two sheets**: Year 2009-2010 and Year 2010-2011.
 ![image](https://github.com/user-attachments/assets/6a8d4ee4-9a59-4f39-ba62-9b3113f91423)
 
-As it will be showed below, these two sheets were combined, cleaned and saved using Python. Then the cleaned data was manipulated using SQL in Python-script environment. And, finally, a Dashboard was built using Power BI with the manipulated data. 
+As it will be showed below, **these two sheets were combined, cleaned and saved using Python**. Then the **cleaned data was manipulated using SQL** in Python-script environment. And, finally, a **Dashboard was built using Power BI** with the manipulated data. 
 
 *Please note*: the raw files were not included in the repository, because they were too heavy to load into GitHub.
 
