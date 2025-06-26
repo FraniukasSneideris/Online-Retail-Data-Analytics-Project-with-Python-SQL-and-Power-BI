@@ -95,7 +95,8 @@ query1 = """
            week,
            price,
            quantity AS total_quantity,
-           quantity * price AS total_revenue
+           quantity * price AS total_revenue,
+           invoicedate
     FROM retail_data
     WHERE quantity > 0
 """
@@ -109,6 +110,7 @@ query2 = """
            quantity AS total_quantity
     FROM retail_data
     WHERE quantity > 0
+    ORDER BY total_quantity DESC
 """
 products_by_quantity = pd.read_sql_query(query2, conn)
 
@@ -121,6 +123,7 @@ query3 = """
            COUNT(DISTINCT year || '-' || month) AS active_months
     FROM retail_data
     GROUP BY customer_id
+    ORDER BY total_spent DESC
 """
 customer_activity = pd.read_sql_query(query3, conn)
 
@@ -136,7 +139,8 @@ query4 = """
            description,
            price,
            quantity AS total_returns_quantity,
-           quantity * price AS total_returns_value
+           quantity * price AS total_returns_value,
+           invoicedate
     FROM retail_data
     WHERE quantity < 0
 """
