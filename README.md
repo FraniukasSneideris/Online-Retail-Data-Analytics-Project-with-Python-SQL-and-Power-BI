@@ -172,7 +172,7 @@ To provide flexibility and enhance user experience, I’ve designed **two versio
 
 I genuinely like both — and I believe each has its own strengths, depending on the **audience**, the **context**, or even the **time of day** they’re being used.
 
-![thumbnail](https://github.com/user-attachments/assets/a1323118-9dc9-417c-b547-4440cf10e602)
+![thumbnail](https://github.com/user-attachments/assets/29d6cfba-f979-4120-87cf-a49556f1c655)
 
 - **Light Version**  
   Ideal for executive presentations, printed reports, and daytime reviews.  
