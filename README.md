@@ -200,8 +200,6 @@ Total Quantity Sold = SUM(sales_summary[total_quantity])
 
 Total Invoices = DISTINCTCOUNT('sales_summary'[invoice])
 
-Total Costumers = DISTINCTCOUNT(sales_summary[customer_id])
-
 Revenue per Costumer = [Total Revenue]/[Total Costumers]
 
 Average Order Value = [Total Revenue] / [Total Invoices]
@@ -254,14 +252,14 @@ The four KPIs in the middle have toltips, as follows:
 - Total Returns Count over time (line chart)
 
 ### Total Revenue over time
-Line chart displaying Total Revenue measure by Week
+Line chart displaying Total Revenue measure by month and year.
 
 ### Customer insights 
 Table chart displaying Customer, Country, Active Months, Customer Type, Average Spent and Total Revenue.
 
 ### Returns Section
 Comprised of:
-- Total Returns Value over time: line chart displaying Total Returns Value by week
+- Total Returns Value over time: line chart displaying Total Returns Value by month and year
 - Returns in USD by Country: treemap displaying the total returns in USD by Country
 - Revenue vs Returns in USD by Product: line and stacked column chart displaying Total Revenue (columns), Return Count (line) by Product (X axis).
 
@@ -274,8 +272,8 @@ Line chart showing Average Order Price and Average price by week, helping identi
 ### Slicers
 Affecting all visuals, filters the data by:
 - Costumer Type
+- Year
 - Country
-- Product
 
 *Detailed breakdowns included in the video.*
 
@@ -296,16 +294,16 @@ More than just a technical exercise, this project represents a real shift in how
 ### Key Business Insights
 
 #### Customer Engagement & Revenue
-- Although most customers fell into the "Inactive" and "Normal" categories, *Active* customers alone generated nearly half of the total annual revenue ($4.38M out of $8.89M).
+- Although the majority of customers were classified as "Inactive" or "Normal", the *"Active customers"* — just 27% of the total (1597 out of 5942) — were responsible for generating almost 80% of the total revenue ($13.37M out of $17.37M). This reflects a classic **Pareto Principle** (also known as the 80/20 rule), where a small share of customers drives the majority of business results. This is a very valuable insight, as the client can now focus its marketing or loyalty programs on retaining these high-value customers.
 - There is a strong correlation between customer activity and revenue: the more active the customer, the higher their contribution to revenue.
 
 #### Returns & Risk
-- Inactive customers accounted for the highest return rates, but overall returns remained under 10%, indicating relatively healthy customer satisfaction.
-- The Netherlands showed the highest revenue of all the countries.
-- The UK showed the second highest revenue and the highest return value ($537K), likely due to its larger customer base.
+- Inactive customers accounted for the highest return rates, but overall returns remained under 20%, indicating relatively healthy customer satisfaction.
+- The United Kingdom showed the highest revenue of all the countries.
+- The United Kingdom also showed the highest return value ($906.7K), likely due to its larger customer base.
 
 #### Product & Pricing Trends
-- "Manual" was the top-selling product, with over $2M in revenue.
+- "Regency Cakestand 3 Tier" was the top-selling product, with over $277K in revenue.
 - The average price of products stayed relatively stable throughout the year, but the **Average Order Value (AOV)** showed seasonal peaks, likely driven by multi-item purchases.
-- Countries like Australia displayed large fluctuations in average price, suggesting pricing variation across customer segments.
+- Countries like the United Kingdom displayed large fluctuations in average price, suggesting pricing variation across customer segments.
 
