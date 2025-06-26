@@ -66,7 +66,7 @@ conn.close()
 
 **Overview of the steps:**
 
-- Loading the raw CSV
+- Loading the raw CSV (both sheets)
 - Combining sheets
 - Handling missing values and duplicates
 - Creating date-based features (e.g., year, month, week, weekday, quarter)
