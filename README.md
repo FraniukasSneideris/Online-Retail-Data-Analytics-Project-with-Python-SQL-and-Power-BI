@@ -69,7 +69,7 @@ conn.close()
 - Loading the raw CSV (both sheets)
 - Combining sheets
 - Handling missing values and duplicates
-- Creating date-based features (e.g., year, month, week, weekday, quarter)
+- Creating new date-based columns
 - Renaming columns for SQL compatibility
 - Saving the cleaned dataset to a local SQLite database
 
