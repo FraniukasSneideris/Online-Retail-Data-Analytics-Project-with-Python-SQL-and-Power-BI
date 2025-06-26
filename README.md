@@ -184,7 +184,8 @@ I genuinely like both — and I believe each has its own strengths, depending on
 
 By presenting both, the goal is to give users the option to choose the experience that best fits their needs — whether it’s clarity in the boardroom or focus during deep-dive analytics.
 
-**Dashboard Walkthrough**: https://youtu.be/tC3z9Z2BbrA
+**Dashboard Walkthrough**: https://www.youtube.com/watch?v=tJZT9xYB1fI&t=5s
+**Dashboard Look (with music, no explanation)**: https://www.youtube.com/watch?v=LHLmKRj6i0M
 
 The Power BI dashboard brings together insights generated in the previous steps and provides an interactive view into sales trends, customer behavior, and returns.
 
