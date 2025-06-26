@@ -192,7 +192,7 @@ The Power BI dashboard brings together insights generated in the previous steps 
 
 ## DAX Measures
 
-Key measures used in the dashboard include :
+Key measures used in the dashboard include:
 ```dax
 Total Revenue = SUM(sales_summary[total_revenue])
 
