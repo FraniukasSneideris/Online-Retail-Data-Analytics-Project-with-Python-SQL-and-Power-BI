@@ -25,17 +25,19 @@ As it will be showed below, **these two sheets were combined, cleaned and saved 
 
 ## Part 1: ETL & Data Cleaning in Python
 ``` python
-# ETL PHASE - DATA PREPARATION
-
 import pandas as pd
 import sqlite3
 
-# Load CSV
-df = pd.read_csv("online_retail_2010-2011.csv")
+# Read both sheets
+df1 = pd.read_excel("online_retail_II.xlsx", sheet_name="Year 2009-2010")
+df2 = pd.read_excel("online_retail_II.xlsx", sheet_name="Year 2010-2011")
+
+# Combine both sheets
+df_comb = pd.concat([df1, df2], ignore_index=True)
 
 ## CLEANING
 # Drop NaNs and make a deep copy to avoid SettingWithCopyWarning
-df_nonan = df.dropna().copy()
+df_nonan = df_comb.dropna().copy()
 
 # Drop duplicates
 df_clean = df_nonan.drop_duplicates().copy()
@@ -65,6 +67,7 @@ conn.close()
 **Overview of the steps:**
 
 - Loading the raw CSV
+- Combining sheets
 - Handling missing values and duplicates
 - Creating date-based features (e.g., year, month, week, weekday, quarter)
 - Renaming columns for SQL compatibility
