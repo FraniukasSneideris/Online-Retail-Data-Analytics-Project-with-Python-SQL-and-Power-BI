@@ -299,7 +299,7 @@ More than just a technical exercise, this project represents a real shift in how
 
 #### Returns & Risk
 - Inactive customers accounted for the highest return rates, but overall returns remained under 20%, indicating relatively healthy customer satisfaction.
-- The United Kingdom showed the highest revenue of all the countries.
+- The United Kingdom showed the highest total revenue of all the countries at $14M.
 - The United Kingdom also showed the highest return value ($906.7K), likely due to its larger customer base.
 
 #### Product & Pricing Trends
