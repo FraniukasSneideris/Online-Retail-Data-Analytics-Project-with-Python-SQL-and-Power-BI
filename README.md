@@ -294,7 +294,7 @@ More than just a technical exercise, this project represents a real shift in how
 ### Key Business Insights
 
 #### Customer Engagement & Revenue
-- Although the majority of customers were classified as "Inactive" or "Normal", the *"Active customers"* — just 27% of the total (1597 out of 5942) — were responsible for generating almost 80% of the total revenue ($13.37M out of $17.37M). This reflects a classic **Pareto Principle** (also known as the 80/20 rule), where a small share of customers drives the majority of business results. This is a very valuable insight, as the client can now focus its marketing or loyalty programs on retaining these high-value customers.
+- Although the majority of customers were classified as "Inactive" or "Normal", the *"Active"* customers — just 27% of the total (1597 out of 5942) — were responsible for generating almost 80% of the total revenue ($13.37M out of $17.37M). This reflects a classic **Pareto Principle** (also known as the 80/20 rule), where a small share of customers drives the majority of business results. This is a very valuable insight, as the client can now focus its marketing or loyalty programs on retaining these high-value customers.
 - There is a strong correlation between customer activity and revenue: the more active the customer, the higher their contribution to revenue.
 
 #### Returns & Risk
