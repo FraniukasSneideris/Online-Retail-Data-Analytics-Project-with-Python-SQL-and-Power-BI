@@ -304,6 +304,6 @@ More than just a technical exercise, this project represents a real shift in how
 
 #### Product & Pricing Trends
 - "Regency Cakestand 3 Tier" was the top-selling product, with over $277K in revenue.
-- The average price of products stayed relatively stable throughout the year, but the **Average Order Value (AOV)** showed seasonal peaks, likely driven by multi-item purchases.
+- The average price of products stayed relatively stable throughout the year, but the Average Order Value (AOV) showed seasonal peaks, likely driven by multi-item purchases.
 - Countries like the United Kingdom displayed large fluctuations in average price, suggesting pricing variation across customer segments.
 
