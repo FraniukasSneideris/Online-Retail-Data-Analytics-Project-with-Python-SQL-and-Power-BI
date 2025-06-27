@@ -1,4 +1,5 @@
 # Online-Retail-Data-Analytics-Project-with-Python-SQL-and-Power-BI
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Introduction
 
@@ -308,4 +309,10 @@ More than just a technical exercise, this project represents a real shift in how
 - "Regency Cakestand 3 Tier" was the top-selling product, with over $277K in revenue.
 - The average price of products stayed relatively stable throughout the year, but the Average Order Value (AOV) showed seasonal peaks, likely driven by multi-item purchases.
 - Countries like the United Kingdom displayed large fluctuations in average price, suggesting pricing variation across customer segments.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
