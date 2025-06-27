@@ -4,8 +4,6 @@ Total Quantity Sold = SUM(sales_summary[total_quantity])
 
 Total Invoices = DISTINCTCOUNT('sales_summary'[invoice])
 
-Total Costumers = DISTINCTCOUNT(sales_summary[customer_id])
-
 Revenue per Costumer = [Total Revenue]/[Total Costumers]
 
 Average Order Value = [Total Revenue] / [Total Invoices]
