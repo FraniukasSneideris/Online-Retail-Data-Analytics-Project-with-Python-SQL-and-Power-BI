@@ -24,7 +24,7 @@ As it will be showed below, **these two sheets were combined, cleaned and saved 
 
 ---
 
-## Part 1: ETL & Data Cleaning in Python
+## Part 1: ETL & Data Cleaning with Python
 ``` python
 import pandas as pd
 import sqlite3
